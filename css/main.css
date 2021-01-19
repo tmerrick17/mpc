@@ -1,0 +1,104 @@
+/* * CSS Reset */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* * Universal Styles */
+:root {
+    --clr-primary: #1DB5F2;
+    --clr-primary-var: #1C7EA6;
+    --clr-secondary: #F23557;
+    --clr-secondary-var: darkred;
+    --clr-tertiary: #F5EF82;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* * Home Page Styles */
+.txt-home {
+    padding: 2rem 0;
+}
+
+.bkg-home {
+    background: linear-gradient(var(--clr-primary), #fff, var(--clr-tertiary));
+}
+
+.section {
+    margin: 6rem 1rem;
+}
+
+.section--1 {
+    margin-top: 0;
+}
+
+.txt-home__p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+
+
+.txt-home__span {
+    font-weight: 700;
+}
+
+
+/* * 1st Section -- Home Page*/
+.txt-home__span--1 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.txt-lg-home {
+    padding: 1rem 0;
+    text-transform: uppercase;
+    word-break: break-all;
+}
+
+.txt-lg {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.txt-lg--1 {
+    font-family: 'Lato', sans-serif;
+    width: 4ch;
+    /* ! Add period here */
+}
+
+/* * 2nd Section -- Home Page */
+.txt-home__span--2 {
+    color: var(--clr-primary);
+}
+
+.txt-lg--2 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    width: 4ch;
+    /* ! Add period here */
+}
+
+/* * 3rd Section -- Home Page */
+.txt-lg--3 {
+    font-family: 'B612', sans-serif;
+    width: 4ch;
+}
+
+/* * Next time... */
+
+
+
